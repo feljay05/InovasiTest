@@ -1,0 +1,82 @@
+/* I always reset all the html elements */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: black;
+}
+
+table{
+	width:  1000px;
+	margin: 30px auto;
+}
+
+table th{
+	padding: 10px 0;
+	background-color: #f4f4f4;
+	border:  thin solid black;
+}
+
+table td{
+	padding: 10px;
+	border:  thin solid black;
+	width: 18%;
+	text-align: center;
+	background-color: rgb(148, 196, 255);
+}
+
+
+table td.total-price{
+	font-weight: bold;
+	font-size: 22px;
+}
+table a{
+	text-decoration: none;
+	color: darkred;
+	background-color: #5613ff;
+	padding: 10px 15px;
+}
+table a:active{
+	background-color: #ccf4d6;
+	color:  green;
+}
+
+table select{
+	padding: 10px;
+	width:  200px;
+	font-size: 16px;
+	border: thin solid #d4d4d4;
+	background-color: transparent;
+}
+table select:focus{
+	outline: none;
+}
+
+h2{
+    margin: 0 50%;
+    width: 50%;
+    padding: 10px;
+}
+
+form{
+    margin: auto;
+    padding: 5px;
+}
+
+input{
+    font-size: 20px;
+    margin: 20px;
+}
+
+button{
+    padding: 10px;
+    margin: 5px 50%;
+    font-size: large;
+    background-color: aquamarine;
+}

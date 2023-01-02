@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+        ID:<input type="text" name="id" required="required" placeholder="Enter ID" id="id">
+        Product ID:<input type="text" name="productID" required="required" placeholder="Enter Product ID" id="productId">
+        Product Name:<input type="text" name="productName" required="required" placeholder="Enter Product Name" id="productName">
+        Amount:<input type="text" name="amount" required="required" placeholder="Enter Amount" id="amount">
+        Customer Name:<input type="text" name="customerName" required="required" placeholder="Enter Customer Name" id="customerName">
+        Status:<input type="text" name="status" required="required" placeholder="Enter Status" id="status">
+        Trasanction Date:<input type="date" name="transactionDate" required="required" placeholder="Enter Transaction Date" id="transDate">
+        Create By:<input type="text" name="createBy" required="required" placeholder="Enter Create By" id="cBy">
+        Create On:<input type="date" name="createOn" required="required" placeholder="Enter Create On" id="cOn">
+        <button onclick="addRow();">Add</button>
+        <button onclick="editRow();">Edit</button>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Amount</th>
+                <th>Customer Name</th>
+                <th>Status</th>
+                <th data-column="transDate" data-order="desc">Transaction Date &#9650</th>
+                <th>Create By</th>
+                <th>Create On</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+
+    </table>
+    <script src="script.js"></script>
+
+    
+
+</body>
+</html>
